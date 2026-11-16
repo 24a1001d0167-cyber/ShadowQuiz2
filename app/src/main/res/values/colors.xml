@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Sunlit Woodland / Tactile Safari Design System -->
+    <color name="bg_app">#F6F1E7</color>
+    <color name="surface_card">#FFFDF9</color>
+    <color name="surface_subtle">#ECE4D4</color>
+    <color name="surface_stage">#F2EBD9</color>
+    <color name="surface_input">#FAF6EE</color>
+    <color name="stroke_subtle">#DED4C1</color>
+    <color name="stroke_lip">#C9BDA6</color>
+
+    <color name="brand_forest">#1D5C47</color>
+    <color name="brand_forest_lip">#123F30</color>
+    <color name="brand_forest_soft">#DCEEE6</color>
+
+    <color name="accent_terracotta">#D96B27</color>
+    <color name="accent_terracotta_lip">#A84E16</color>
+    <color name="accent_terracotta_soft">#FCE8D8</color>
+
+    <color name="amber_gold">#D99B16</color>
+    <color name="amber_lip">#A6740B</color>
+    <color name="amber_soft">#FBF0CE</color>
+
+    <color name="emerald_correct">#238A58</color>
+    <color name="emerald_soft">#DCF4E6</color>
+
+    <color name="coral_wrong">#CF4538</color>
+    <color name="coral_soft">#FBE2DF</color>
+
+    <color name="text_primary">#221D17</color>
+    <color name="text_secondary">#6B6052</color>
+    <color name="text_muted">#8C7F6E</color>
+    <color name="shadow_ink">#1F1A15</color>
+
+    <color name="medal_gold">#EAB308</color>
+    <color name="medal_silver">#94A3B8</color>
+    <color name="medal_bronze">#C26D27</color>
+</resources>

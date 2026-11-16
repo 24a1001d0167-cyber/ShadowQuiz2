@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Left Pincer Arm & Claw -->
+    <path
+        android:fillColor="#DC2626"
+        android:pathData="M62,92 C44,82 36,68 40,56 L50,60 C46,68 52,78 68,84 Z" />
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M42,64 C24,58 22,36 38,24 C42,36 46,44 52,44 C46,32 52,22 62,24 C70,38 64,62 42,64 Z" />
+    <!-- Right Pincer Arm & Claw -->
+    <path
+        android:fillColor="#DC2626"
+        android:pathData="M138,92 C156,82 164,68 160,56 L150,60 C154,68 148,78 132,84 Z" />
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M158,64 C176,58 178,36 162,24 C158,36 154,44 148,44 C154,32 148,22 138,24 C130,38 136,62 158,64 Z" />
+    <!-- Left Legs (3 pairs) -->
+    <path
+        android:fillColor="#B91C1C"
+        android:pathData="M56,112 L24,104 L18,120 L28,122 L32,114 L56,120 Z M54,126 L20,130 L18,148 L28,148 L30,138 L56,134 Z M62,140 L34,158 L36,174 L46,172 L46,162 L68,146 Z" />
+    <!-- Right Legs (3 pairs) -->
+    <path
+        android:fillColor="#B91C1C"
+        android:pathData="M144,112 L176,104 L182,120 L172,122 L168,114 L144,120 Z M146,126 L180,130 L182,148 L172,148 L170,138 L144,134 Z M138,140 L166,158 L164,174 L154,172 L154,162 L132,146 Z" />
+    <!-- Eye Stalks -->
+    <path
+        android:fillColor="#DC2626"
+        android:pathData="M78,74 L84,74 L84,90 L78,90 Z M116,74 L122,74 L122,90 L116,90 Z" />
+    <!-- Main Crab Shell -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M100,82 C136,82 154,104 154,124 C154,146 134,160 100,160 C66,160 46,146 46,124 C46,104 64,82 100,82 Z" />
+    <!-- Shell Highlight -->
+    <path
+        android:fillColor="#FCA5A5"
+        android:pathData="M74,98 C86,90 114,90 126,98 C114,96 86,96 74,98 Z" />
+    <!-- Eyes -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M81,64 A8,8 0 1,0 81,80 A8,8 0 1,0 81,64 Z M119,64 A8,8 0 1,0 119,80 A8,8 0 1,0 119,64 Z" />
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M81,68 A4,4 0 1,0 81,76 A4,4 0 1,0 81,68 Z M119,68 A4,4 0 1,0 119,76 A4,4 0 1,0 119,68 Z" />
+    <!-- Smile -->
+    <path
+        android:fillColor="#7F1D1D"
+        android:pathData="M84,132 Q100,144 116,132 Q100,138 84,132 Z" />
+</vector>

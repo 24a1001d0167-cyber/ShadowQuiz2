@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardCollectionItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/bg_card_tactile"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingHorizontal="10dp"
+    android:paddingTop="12dp"
+    android:paddingBottom="14dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:background="@drawable/bg_pill_oat"
+        android:padding="12dp">
+
+        <ImageView
+            android:id="@+id/ivCollectionAnimal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvCollectionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="Con Cú Mèo"
+        android:textColor="@color/text_primary"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvCollectionSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/bg_pill_sage"
+        android:paddingHorizontal="9dp"
+        android:paddingVertical="2dp"
+        android:text="Đã gặp 3 lần"
+        android:textColor="@color/brand_forest"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ShadowQuiz</string>
+    <string name="app_tagline">Sổ tay tinh mắt • Giải mã bóng hình muôn loài</string>
+    <string name="hint_username">Tên đăng nhập</string>
+    <string name="hint_display_name">Tên hiển thị</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="btn_login">VÀO SẢNH THÁM HIỂM</string>
+    <string name="btn_register">TẠO HỒ SƠ &amp; CHƠI</string>
+    <string name="btn_guest">Chơi nhanh với tư cách Khách</string>
+    <string name="prompt_guess_shadow">Quan sát kỹ đường nét bóng đen để chọn đúng con vật</string>
+</resources>

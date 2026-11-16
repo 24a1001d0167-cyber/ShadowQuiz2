@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Curved Tail -->
+    <path
+        android:fillColor="#E67E22"
+        android:pathData="M134,158 C166,158 182,126 172,96 C167,82 154,84 156,96 C161,118 150,138 130,140 Z" />
+    <!-- Tail Tip -->
+    <path
+        android:fillColor="#FFF3E0"
+        android:pathData="M172,96 C167,82 154,84 156,96 C158,103 166,104 172,96 Z" />
+    <!-- Sitting Body -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M62,108 C54,126 54,162 66,174 L132,174 C144,162 142,126 132,108 Z" />
+    <!-- Chest Belly Patch -->
+    <path
+        android:fillColor="#FEF3C7"
+        android:pathData="M82,118 C78,136 80,162 88,172 L110,172 C118,162 120,136 116,118 Z" />
+    <!-- Left Ear -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M56,66 L48,26 L84,48 Z" />
+    <path
+        android:fillColor="#FDA4AF"
+        android:pathData="M60,60 L54,36 L76,50 Z" />
+    <!-- Right Ear -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M142,66 L150,26 L114,48 Z" />
+    <path
+        android:fillColor="#FDA4AF"
+        android:pathData="M138,60 L144,36 L122,50 Z" />
+    <!-- Head -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M99,42 C128,42 148,60 148,84 C148,106 128,120 99,120 C70,120 50,106 50,84 C50,60 70,42 99,42 Z" />
+    <!-- Forehead Stripes -->
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M96,43 L102,43 L100,58 L98,58 Z M82,46 L88,45 L89,58 L84,58 Z M110,45 L116,46 L114,58 L109,58 Z" />
+    <!-- Cheeks -->
+    <path
+        android:fillColor="#FEF3C7"
+        android:pathData="M84,90 C94,90 100,96 100,104 C100,111 92,116 82,116 C73,116 66,110 66,102 C66,95 74,90 84,90 Z M114,90 C124,90 132,95 132,102 C132,110 125,116 116,116 C106,116 98,111 98,104 C98,96 104,90 114,90 Z" />
+    <!-- Eyes -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M78,76 A7,8 0 1,0 78,92 A7,8 0 1,0 78,76 Z M120,76 A7,8 0 1,0 120,92 A7,8 0 1,0 120,76 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M80,79 A2.5,2.5 0 1,0 80,84 A2.5,2.5 0 1,0 80,79 Z M122,79 A2.5,2.5 0 1,0 122,84 A2.5,2.5 0 1,0 122,79 Z" />
+    <!-- Pink Nose -->
+    <path
+        android:fillColor="#F43F5E"
+        android:pathData="M93,93 L105,93 L99,101 Z" />
+    <!-- Whiskers (solid thin shapes so silhouette stays crisp) -->
+    <path
+        android:fillColor="#92400E"
+        android:pathData="M34,88 L64,93 L64,96 L34,92 Z M32,100 L64,100 L64,103 L32,103 Z M134,93 L164,88 L164,92 L134,96 Z M134,100 L166,100 L166,103 L134,103 Z" />
+    <!-- Paws -->
+    <path
+        android:fillColor="#FEF3C7"
+        android:pathData="M68,166 C68,158 84,158 84,166 L84,176 L68,176 Z M114,166 C114,158 130,158 130,166 L130,176 L114,176 Z" />
+</vector>

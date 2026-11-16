@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#1D5C47"
+        android:pathData="M6,2 H18 C19.1,2 20,2.9 20,4 V20 C20,21.1 19.1,22 18,22 H6 C4.9,22 4,21.1 4,20 V4 C4,2.9 4.9,2 6,2 Z" />
+    <path
+        android:fillColor="#DCEEE6"
+        android:pathData="M7,4 H17 V20 H7 Z" />
+    <!-- Paw Print inside Fieldbook -->
+    <path
+        android:fillColor="#1D5C47"
+        android:pathData="M12,12.5 C10.4,12.5 9.2,13.7 9.2,15.2 C9.2,16.4 10.2,17.2 12,17.2 C13.8,17.2 14.8,16.4 14.8,15.2 C14.8,13.7 13.6,12.5 12,12.5 Z M9,9.5 A1.2,1.5 0 1,0 9,12.5 A1.2,1.5 0 1,0 9,9.5 Z M12,8 A1.2,1.5 0 1,0 12,11 A1.2,1.5 0 1,0 12,8 Z M15,9.5 A1.2,1.5 0 1,0 15,12.5 A1.2,1.5 0 1,0 15,9.5 Z" />
+</vector>

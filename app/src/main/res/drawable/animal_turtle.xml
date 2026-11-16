@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Small Tail -->
+    <path
+        android:fillColor="#65A30D"
+        android:pathData="M150,126 L176,132 L152,138 Z" />
+    <!-- Legs -->
+    <path
+        android:fillColor="#65A30D"
+        android:pathData="M60,128 C56,144 54,162 66,164 L82,164 C86,154 84,136 80,128 Z M124,128 C120,136 118,154 122,164 L138,164 C150,162 148,144 144,128 Z" />
+    <!-- Neck & Head -->
+    <path
+        android:fillColor="#84CC16"
+        android:pathData="M62,112 C48,110 42,96 36,86 C26,74 16,80 18,94 C20,108 32,124 62,126 Z" />
+    <!-- Turtle Head Bulb -->
+    <path
+        android:fillColor="#84CC16"
+        android:pathData="M34,68 C46,68 54,78 52,90 C50,100 38,104 28,100 C18,96 14,84 20,74 C24,70 28,68 34,68 Z" />
+    <!-- Eye -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M30,78 A4,4 0 1,0 30,86 A4,4 0 1,0 30,78 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M29,79 A1.5,1.5 0 1,0 29,82 A1.5,1.5 0 1,0 29,79 Z" />
+    <!-- Lower Belly Rim -->
+    <path
+        android:fillColor="#FDE047"
+        android:pathData="M54,126 L154,126 C152,136 138,142 104,142 C70,142 56,136 54,126 Z" />
+    <!-- Shell Dome -->
+    <path
+        android:fillColor="#15803D"
+        android:pathData="M50,126 C50,82 74,58 104,58 C134,58 158,82 158,126 Z" />
+    <!-- Shell Hex Pattern -->
+    <path
+        android:fillColor="#22C55E"
+        android:pathData="M90,72 L118,72 L126,92 L104,104 L82,92 Z M64,96 L80,96 L86,118 L60,118 Z M128,96 L144,96 L148,118 L122,118 Z" />
+</vector>

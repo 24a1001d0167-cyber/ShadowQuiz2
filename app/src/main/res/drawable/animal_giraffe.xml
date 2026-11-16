@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Thin Tail -->
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M138,116 L158,144 L152,148 L134,122 Z" />
+    <!-- Slender Legs -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M78,132 L88,132 L86,184 L78,184 Z M98,132 L106,132 L104,184 L96,184 Z M122,132 L132,132 L130,184 L122,184 Z" />
+    <!-- Hooves -->
+    <path
+        android:fillColor="#78350F"
+        android:pathData="M78,176 L86,176 L86,184 L78,184 Z M96,176 L104,176 L104,184 L96,184 Z M122,176 L130,176 L130,184 L122,184 Z" />
+    <!-- Ossicones (Horns) & Ears -->
+    <path
+        android:fillColor="#92400E"
+        android:pathData="M70,16 L76,16 L78,34 L72,34 Z M82,16 L88,16 L84,34 L78,34 Z" />
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M88,34 L104,28 L94,42 Z" />
+    <!-- Tall Neck & Torso & Head -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M62,32 C74,26 88,30 92,42 L94,106 C108,100 132,104 142,120 C146,128 140,140 128,140 L78,140 C72,140 68,130 72,114 L70,56 C58,56 48,50 48,42 C48,36 54,34 62,32 Z" />
+    <!-- Giraffe Spots -->
+    <path
+        android:fillColor="#B45309"
+        android:pathData="M80,62 A6,7 0 1,0 80,76 A6,7 0 1,0 80,62 Z M82,84 A6,7 0 1,0 82,98 A6,7 0 1,0 82,84 Z M98,112 A8,7 0 1,0 98,126 A8,7 0 1,0 98,112 Z M120,114 A7,7 0 1,0 120,128 A7,7 0 1,0 120,114 Z M84,116 A6,6 0 1,0 84,128 A6,6 0 1,0 84,116 Z" />
+    <!-- Eye & Muzzle -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M68,38 A3,3 0 1,0 68,44 A3,3 0 1,0 68,38 Z" />
+    <path
+        android:fillColor="#FDE68A"
+        android:pathData="M48,40 C48,36 56,36 60,42 C58,50 50,50 48,44 Z" />
+</vector>

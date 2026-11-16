@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Feet / Talons -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M72,162 L88,162 L84,180 L76,180 Z M66,174 L74,174 L72,182 Z M112,162 L128,162 L124,180 L116,180 Z M126,174 L134,174 L128,182 Z" />
+    <!-- Left & Right Spread Wings -->
+    <path
+        android:fillColor="#78350F"
+        android:pathData="M54,84 C34,98 30,134 48,154 C58,144 62,120 60,96 Z M146,84 C166,98 170,134 152,154 C142,144 138,120 140,96 Z" />
+    <!-- Ear Tufts (Horned Owl Silhouette) -->
+    <path
+        android:fillColor="#92400E"
+        android:pathData="M54,48 L44,22 L76,40 Z M146,48 L156,22 L124,40 Z" />
+    <!-- Main Body & Head -->
+    <path
+        android:fillColor="#92400E"
+        android:pathData="M100,32 C134,32 152,56 152,96 C152,142 132,168 100,168 C68,168 48,142 48,96 C48,56 66,32 100,32 Z" />
+    <!-- Chest Feather Oval -->
+    <path
+        android:fillColor="#FDE68A"
+        android:pathData="M100,96 C122,96 134,116 134,140 C134,158 118,164 100,164 C82,164 66,158 66,140 C66,116 78,96 100,96 Z" />
+    <!-- Chest Markings -->
+    <path
+        android:fillColor="#B45309"
+        android:pathData="M82,116 L90,116 L86,124 Z M110,116 L118,116 L114,124 Z M96,132 L104,132 L100,140 Z M80,144 L88,144 L84,152 Z M112,144 L120,144 L116,152 Z" />
+    <!-- Face Disc -->
+    <path
+        android:fillColor="#FEF3C7"
+        android:pathData="M76,50 A20,20 0 1,0 76,90 A20,20 0 1,0 76,50 Z M124,50 A20,20 0 1,0 124,90 A20,20 0 1,0 124,50 Z" />
+    <!-- Yellow Eyes -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M76,57 A13,13 0 1,0 76,83 A13,13 0 1,0 76,57 Z M124,57 A13,13 0 1,0 124,83 A13,13 0 1,0 124,57 Z" />
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M76,63 A7,7 0 1,0 76,77 A7,7 0 1,0 76,63 Z M124,63 A7,7 0 1,0 124,77 A7,7 0 1,0 124,63 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M78,65 A2.5,2.5 0 1,0 78,70 A2.5,2.5 0 1,0 78,65 Z M126,65 A2.5,2.5 0 1,0 126,70 A2.5,2.5 0 1,0 126,65 Z" />
+    <!-- Beak -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M94,78 L106,78 L100,96 Z" />
+</vector>

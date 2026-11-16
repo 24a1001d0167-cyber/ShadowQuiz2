@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_app"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/rootLoginContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:paddingTop="24dp"
+        android:paddingBottom="28dp">
+
+        <!-- Botanical Explorer Medallion -->
+        <FrameLayout
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_pill_sage">
+
+            <ImageView
+                android:id="@+id/ivLoginEmblem"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:layout_gravity="center"
+                android:contentDescription="ShadowQuiz Logo"
+                android:src="@drawable/animal_owl" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:letterSpacing="0.04"
+            android:text="ShadowQuiz"
+            android:textColor="@color/text_primary"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/app_tagline"
+            android:textColor="@color/text_secondary"
+            android:textSize="13sp" />
+
+        <!-- Tactile Auth Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/bg_card_tactile"
+            android:orientation="vertical"
+            android:paddingHorizontal="18dp"
+            android:paddingTop="18dp"
+            android:paddingBottom="22dp">
+
+            <!-- Mode Switch Pill -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:background="@drawable/bg_pill_oat"
+                android:orientation="horizontal"
+                android:padding="4dp">
+
+                <TextView
+                    android:id="@+id/btnModeLogin"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_pill_forest"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:text="Đăng nhập"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/btnModeRegister"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:text="Đăng ký"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!-- Username -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilUsername"
+                style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:hint="@string/hint_username"
+                app:boxBackgroundColor="@color/surface_input"
+                app:boxCornerRadiusBottomEnd="14dp"
+                app:boxCornerRadiusBottomStart="14dp"
+                app:boxCornerRadiusTopEnd="14dp"
+                app:boxCornerRadiusTopStart="14dp"
+                app:boxStrokeColor="@color/brand_forest">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionNext"
+                    android:inputType="textNoSuggestions"
+                    android:maxLines="1"
+                    android:textColor="@color/text_primary" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Display Name (Register only) -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilDisplayName"
+                style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:hint="@string/hint_display_name"
+                android:visibility="gone"
+                app:boxBackgroundColor="@color/surface_input"
+                app:boxCornerRadiusBottomEnd="14dp"
+                app:boxCornerRadiusBottomStart="14dp"
+                app:boxCornerRadiusTopEnd="14dp"
+                app:boxCornerRadiusTopStart="14dp"
+                app:boxStrokeColor="@color/brand_forest">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etDisplayName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPersonName"
+                    android:maxLines="1"
+                    android:textColor="@color/text_primary" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Password -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilPassword"
+                style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:hint="@string/hint_password"
+                app:boxBackgroundColor="@color/surface_input"
+                app:boxCornerRadiusBottomEnd="14dp"
+                app:boxCornerRadiusBottomStart="14dp"
+                app:boxCornerRadiusTopEnd="14dp"
+                app:boxCornerRadiusTopStart="14dp"
+                app:boxStrokeColor="@color/brand_forest"
+                app:endIconMode="password_toggle">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:textColor="@color/text_primary" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Avatar Picker (Register only) -->
+            <LinearLayout
+                android:id="@+id/layoutAvatarPicker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chọn linh vật đại diện:"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:id="@+id/cardAvatar0"
+                        android:layout_width="46dp"
+                        android:layout_height="46dp"
+                        android:layout_marginEnd="6dp"
+                        android:background="@drawable/bg_card_selected_sage"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:padding="6dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/animal_cat" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/cardAvatar1"
+                        android:layout_width="46dp"
+                        android:layout_height="46dp"
+                        android:layout_marginEnd="6dp"
+                        android:background="@drawable/bg_card_tactile"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:padding="6dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/animal_rabbit" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/cardAvatar2"
+                        android:layout_width="46dp"
+                        android:layout_height="46dp"
+                        android:layout_marginEnd="6dp"
+                        android:background="@drawable/bg_card_tactile"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:padding="6dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/animal_owl" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/cardAvatar3"
+                        android:layout_width="46dp"
+                        android:layout_height="46dp"
+                        android:layout_marginEnd="6dp"
+                        android:background="@drawable/bg_card_tactile"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:padding="6dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/animal_penguin" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/cardAvatar4"
+                        android:layout_width="46dp"
+                        android:layout_height="46dp"
+                        android:layout_marginEnd="6dp"
+                        android:background="@drawable/bg_card_tactile"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:padding="6dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/animal_dolphin" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/cardAvatar5"
+                        android:layout_width="46dp"
+                        android:layout_height="46dp"
+                        android:background="@drawable/bg_card_tactile"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:padding="6dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/animal_frog" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Primary 3D Forest Submit Button -->
+            <TextView
+                android:id="@+id/btnSubmitAuth"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_btn_forest_3d"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:paddingBottom="4dp"
+                android:text="@string/btn_login"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Tactile Ivory Guest Play Button -->
+        <LinearLayout
+            android:id="@+id/btnGuestPlay"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_btn_ivory_3d"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="3dp">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/ic_bolt" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="@string/btn_guest"
+                android:textColor="@color/brand_forest"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="Hồ sơ thám hiểm, Sổ tay muôn loài và Bảng vàng được lưu trữ ngoại tuyến bằng SQLite."
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp" />
+    </LinearLayout>
+</ScrollView>

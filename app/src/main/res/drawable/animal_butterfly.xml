@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Antennae -->
+    <path
+        android:fillColor="#312E81"
+        android:pathData="M96,60 C88,38 74,26 62,28 L64,34 C74,34 84,44 92,62 Z M104,60 C112,38 126,26 138,28 L136,34 C126,34 116,44 108,62 Z" />
+    <path
+        android:fillColor="#EC4899"
+        android:pathData="M62,25 A5,5 0 1,0 62,35 A5,5 0 1,0 62,25 Z M138,25 A5,5 0 1,0 138,35 A5,5 0 1,0 138,25 Z" />
+    <!-- Upper Wings -->
+    <path
+        android:fillColor="#8B5CF6"
+        android:pathData="M94,78 C74,40 24,30 18,68 C14,98 48,116 94,108 Z M106,78 C126,40 176,30 182,68 C186,98 152,116 106,108 Z" />
+    <!-- Lower Wings -->
+    <path
+        android:fillColor="#EC4899"
+        android:pathData="M94,108 C56,112 30,136 42,164 C54,184 88,172 96,136 Z M106,108 C144,112 170,136 158,164 C146,184 112,172 104,136 Z" />
+    <!-- Wing Pattern Spots -->
+    <path
+        android:fillColor="#FDE047"
+        android:pathData="M48,66 A14,14 0 1,0 48,94 A14,14 0 1,0 48,66 Z M152,66 A14,14 0 1,0 152,94 A14,14 0 1,0 152,66 Z" />
+    <path
+        android:fillColor="#FBCFE8"
+        android:pathData="M62,138 A10,10 0 1,0 62,158 A10,10 0 1,0 62,138 Z M138,138 A10,10 0 1,0 138,158 A10,10 0 1,0 138,138 Z" />
+    <!-- Slender Body & Head -->
+    <path
+        android:fillColor="#312E81"
+        android:pathData="M100,54 C106,54 108,64 106,74 C108,92 108,134 103,156 C102,162 98,162 97,156 C92,134 92,92 94,74 C92,64 94,54 100,54 Z" />
+</vector>

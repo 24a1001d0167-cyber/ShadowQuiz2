@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Folded Hind Legs -->
+    <path
+        android:fillColor="#16A34A"
+        android:pathData="M56,120 C26,120 20,152 38,166 L64,166 L64,158 L46,158 C38,148 42,134 60,134 Z M144,120 C174,120 180,152 162,166 L136,166 L136,158 L154,158 C162,148 158,134 140,134 Z" />
+    <!-- Main Frog Body -->
+    <path
+        android:fillColor="#22C55E"
+        android:pathData="M100,66 C138,66 156,94 154,126 C152,150 132,162 100,162 C68,162 48,150 46,126 C44,94 62,66 100,66 Z" />
+    <!-- Light Green Belly -->
+    <path
+        android:fillColor="#DCFCE7"
+        android:pathData="M100,112 C122,112 134,126 132,144 C130,156 116,160 100,160 C84,160 70,156 68,144 C66,126 78,112 100,112 Z" />
+    <!-- Front Legs -->
+    <path
+        android:fillColor="#16A34A"
+        android:pathData="M68,128 L76,174 L60,174 L62,164 L54,164 Z M132,128 L124,174 L140,174 L138,164 L146,164 Z" />
+    <!-- Bulging Top Eyes -->
+    <path
+        android:fillColor="#22C55E"
+        android:pathData="M68,42 A20,20 0 1,0 68,82 A20,20 0 1,0 68,42 Z M132,42 A20,20 0 1,0 132,82 A20,20 0 1,0 132,42 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M68,48 A13,13 0 1,0 68,74 A13,13 0 1,0 68,48 Z M132,48 A13,13 0 1,0 132,74 A13,13 0 1,0 132,48 Z" />
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M68,54 A7,7 0 1,0 68,68 A7,7 0 1,0 68,54 Z M132,54 A7,7 0 1,0 132,68 A7,7 0 1,0 132,54 Z" />
+    <!-- Cute Cheeks & Big Smile -->
+    <path
+        android:fillColor="#86EFAC"
+        android:pathData="M62,90 A7,5 0 1,0 62,100 A7,5 0 1,0 62,90 Z M138,90 A7,5 0 1,0 138,100 A7,5 0 1,0 138,90 Z" />
+    <path
+        android:fillColor="#14532D"
+        android:pathData="M70,96 Q100,116 130,96 Q100,108 70,96 Z" />
+</vector>
